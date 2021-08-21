@@ -413,8 +413,8 @@ input {
 }
 
 .posTabelaDetalhe{
-    position: relative;
-    left: 3%;
+    margin-left: 50px;
+    text-align: center;
     
 }
 
