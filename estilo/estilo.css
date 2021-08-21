@@ -131,36 +131,51 @@ footer {
     font-size: 15px;
     background-color: rgb(40, 88, 245);
     color: white;
-    bottom: 0;
-    left: 0;
-    height: 22px;
+    z-index: 2;
+    height: 50px;
     position: fixed;
+
     width: 100%;
     padding: 5px;
 }
 
-.div1 {
-    float: left;
 
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
-.div2 {
+.containerFooter {
+    padding: 5px;
+    min-width: calc(4 * 2rem + 8 * .6rem + 3rem);
+}
+
+.flexFooter {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.alinhar{
+    justify-content: center;
+    justify-content: space-around;
+
+    
+}
+
+.itemFooter {
+    
+    padding: 10px;    
+    color: #fff;
     text-align: center;
-    margin-right: 300px;
+    font-weight: bold;
+    te
+    
 }
-
-.div3 {
-    float: right;
-    margin-right: 80px;
-
-}
-
-footer .div1 a {
-    text-decoration: none;
-    color: white;
-
-}
-
 /* FOOTER */
 
 /* SECTION */
@@ -600,10 +615,11 @@ fieldset {
 
     .menuB li {
         position: relative;
-        /* float: right; */
-        width: 100%;
+        left: 50%;       
+        width: 50%;
         background: black;
         border-radius: 10px;
+        
     }
 
     .menuB li a {
@@ -627,14 +643,11 @@ fieldset {
     }
 
     .menuB li ul {
-        position: relative;
-        left: 5%;
+        
         background-color: black;
         display: none;
         font-size: 20px;
         border-radius: 10px;
-        
-
     }
 
     .menuB li:hover ul {
@@ -644,10 +657,10 @@ fieldset {
     .menuB li ul li {
         border: 2px solid #c0c0c0;
         display: block;
-        width: 160px;
-        margin-top: 3px;
+        width: 170px;
+        margin-top: 10px;
         border-radius: 10px;
-
+        margin-left: -45%;
 
     }
 
@@ -904,44 +917,48 @@ fieldset {
         background-color: rgb(40, 88, 245);
         color: white;
         z-index: 2;
-
-
-        height: 50px;
+        height: 60px;
         position: fixed;
+
         width: 100%;
         padding: 5px;
     }
 
-    .div1 {
-        position: relative;
-        top: 5px;
-
-
-    }
-
-    .div2 {
-        position: relative;
-        top: 20px;
-
-    }
-
-    .div3 {
-
-        position: relative;
-        top: 20px;
-
-    }
-
-    footer .div1 a {
+    
+    footer a{
         text-decoration: none;
         color: white;
 
     }
 
+    .alinhar{
+        justify-content: space-around;
+    }
+
+    .containerFooter {
+        box-sizing: border-box;
+        min-width: calc(4 * 2rem + 8 * .6rem + 3rem);
+    }
+    
+    .flexFooter {
+        display: flex;
+    }
+    
+    .inline-flex {
+        display: inline-flex;
+    }
+    
+    .itemFooter {
+        
+        margin-top: -10px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    
+
     /* FOOTER RESPONSIVO*/
-
-
-
 
     .container {
         margin-top: 90px;
@@ -989,6 +1006,7 @@ fieldset {
 
 @media(max-width: 400px) {
 
+
 p {
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -996,6 +1014,16 @@ p {
         font-weight: bold;
         position: relative;
         left: 40%;
+    }
+
+    .pSobre{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+            left: 5%;
+            
     }
 
 }
