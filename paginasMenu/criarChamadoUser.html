@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03d16f4579.js" crossorigin="anonymous"></script>
+    <title>Pagina Padrão</title>
+    <link rel="stylesheet" href="../estilo/reset.css">
+    <link rel="stylesheet" type="text/css" href="../estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="area-logo">
+            <a href="./Home.html">
+                <img class="imgLogo" src="../imgs/informatica_mc20120.jpg" alt="Imagem Logo">
+            </a>
+        </div>
+        <div class="menu-burguer">
+            <i class="fas fa-bars">
+                <nav class="navB">
+                    <ul class="menuB">
+                        <li><a href="Home.html">Página Inicial</a></li>
+                        <li><a>Sistemas</a>
+                            <ul>
+                                <li><a href="AreaTecnico.html">Área do Técnico</a></li>
+                                <li><a href="AreaCliente.html">Área do Cliente</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </i>
+        </div>
+        <nav>
+            <ul class="menu">
+
+                <li><a href="Contato.html">Contato</a></li>
+
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a>Sistemas</a>
+                    <ul>
+                        <li><a href="AreaTecnico.html">Área do Técnico</a></li>
+                        <li><a href="AreaCliente.html">Área do Cliente</a></li>
+                    </ul>
+                </li>
+                <li><a href="Home.html">Página Inicial</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section class="main">
+        <div class="localizacao">
+            Sistemas > Painel do Cliente > Novo Chamado
+        </div>
+        <div class="container flex">
+            <div class="item"><a class="Chamado" href="PainelCliente.html">Meus chamados</a></div>
+            <div class="item"><a class="Chamado" href="criarChamadoUser.html">Novo chamado</a></div>
+            <div class="item">Chamado Abertos</div>
+            <div class="item">Chamados Fechados</div>
+        </div>
+
+        <form>
+            <fieldset>
+                <div class="areaForm">
+                    <div class="Dica">
+                        <label><a class="campObrig">*</a>Nome Completo:</label>
+                        <div class="DicaTexto">Campo obrigatório!</div>
+                    </div>
+                    <input type="text" name="nome" placeholder="João da Cunha">
+
+                    <div class="Dica">
+                        <label><a class="campObrig">*</a>Telefone: </label>
+                        <div class="DicaTexto">Campo obrigatório!</div>
+                    </div>
+                    <input type="number" name="telefone" placeholder="(xx)xxx-xxxx">
+
+                    <div class="Dica">
+                        <label><a class="campObrig">*</a>Local:</label>
+                        <div class="DicaTexto">Campo obrigatório!</div>
+                    </div>
+                    <input type="text" name="localizacao" placeholder="Avenidade Roraima Nº 126, camobi, Apartamento 203">
+
+                    <div class="Dica">
+                        <label><a class="campObrig">*</a>Assunto:</label>
+                        <div class="DicaTexto">Campo obrigatório!</div>
+                    </div>
+                    <input type="text" name="assunto" placeholder="Computador com problema">
+
+                    <div class="Dica">
+                        <label><a class="campObrig">*</a>Texto:</label>
+                        <div class="DicaTexto">Campo obrigatório!</div>
+                    </div>
+
+                    <textarea placeholder="Descreva aqui o problema que está ocorrendo!"></textarea>
+
+                    <div class="botao">Enviar</div>
+                </div>
+            </fieldset>
+        </form>
+
+
+    </section>
+
+    <footer>
+        <div>
+            <div class="div1">
+                Contato: (55) 3213-1448 -
+                Email: helpdesk@gmail.com
+            </div>
+
+            <div class="div3">
+                <a><i class="fab fa-facebook-square"></i></a>
+                <a><i class="fab fa-instagram"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+            <div class="div2">
+                Todos os Direitos Reservados. 2021 Copyright
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

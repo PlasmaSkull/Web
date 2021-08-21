@@ -1,0 +1,1001 @@
+body {
+    background-image: url(../imgs/TexturaLinhasAzul.jpg);
+    color: white;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+
+.menu-burguer {
+    display: block;
+
+    color: white;
+    z-index: 1000;
+
+}
+
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 88, 245);
+    z-index: 1;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+
+.imgLogo {
+    height: 80px;
+    width: 100%;
+}
+
+.area-logo {
+    position: absolute;
+
+
+}
+
+.menu {
+    position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    margin-right: 50px;
+    list-style: none;
+
+
+
+
+}
+
+.menu-burguer {
+    display: none;
+    /* height: 80px; */
+    width: 100%;
+
+}
+
+.menu-burguer i {
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.menu li {
+    position: relative;
+    float: right;
+
+}
+
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+
+}
+
+.menu li a:hover {
+
+    border-radius: 10px;
+    background: black;
+    color: white;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: black;
+    display: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 2px solid #c0c0c0;
+    display: block;
+    width: 150px;
+    margin-top: 3px;
+    border-radius: 10px;
+
+
+}
+
+/* HEADER */
+
+/* FOOTER */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(40, 88, 245);
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 22px;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+}
+
+.div1 {
+    float: left;
+
+}
+
+.div2 {
+    text-align: center;
+    margin-right: 300px;
+}
+
+.div3 {
+    float: right;
+    margin-right: 80px;
+
+}
+
+footer .div1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* FOOTER */
+
+/* SECTION */
+
+.localizacao {
+    width: 100%;
+    position: relative;
+    top: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #42b72a;
+    font-style: italic;
+
+}
+
+.main {
+
+    height: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.corpo {
+    text-align: center;
+    height: 400px;
+    width: 60%;
+    margin: 0 auto;
+
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textoAreCliente {
+    position: relative;
+    left: 50px;
+}
+
+.containerHome {
+    height: 2000px;
+}
+
+.box {
+    height: 500px;
+    position: relative;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.boxIMG1 {
+    border-radius: 5px;
+    margin-top: 50px;
+    position: relative;
+    left: 36%;
+    height: 350px;
+}
+
+.boxIMG2 {
+    border-radius: 5px;
+    margin-top: 50px;
+    position: relative;
+    left: 36%;
+    height: 350px;
+
+
+}
+
+/* SECTION */
+
+/* CONTATO */
+.contatoEstilo {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    height: 450px;
+    width: 520px;
+    margin-top: 50px;
+    position: relative;
+    left: 36%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    width: 500px;
+    line-height: 30px;
+
+}
+
+.botaoContato {
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #42b72a;
+    font-size: 17px;
+    width: 100px;
+    line-height: 48px;
+    margin-top: 35px;
+    position: relative;
+    left: 42%;
+    padding: 0 16px;
+    vertical-align: middle;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+
+}
+
+.campObrig {
+    color: red;
+}
+
+
+/* CONTATO */
+
+/* AREA TECNICA E DO CLIENTE */
+.pos {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    height: 310px;
+    width: 520px;
+    margin-top: 50px;
+    margin-left: 35%;
+
+    border-radius: 15px;
+    background-color: black;
+
+
+}
+
+.formatLink {
+    text-decoration: none;
+    color: white;
+}
+
+.botao {
+
+    font-weight: bold;
+    border: none;
+
+    border-radius: 6px;
+    background-color: #42b72a;
+    font-size: 17px;
+    width: 50px;
+
+    line-height: 48px;
+    margin-top: 15px;
+    position: relative;
+    left: 220px;
+    padding: 0 16px;
+    vertical-align: middle;
+
+
+
+}
+
+input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid gray;
+
+}
+
+.esqsenha a {
+
+    position: relative;
+    top: 15px;
+    left: 195px;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: inherit;
+    font-size: 14px;
+
+
+}
+
+.esqsenha a:hover {
+
+    box-shadow: 0 3px 15px 0 blue;
+
+}
+
+.criaConta a {
+
+    position: relative;
+    top: 15px;
+    left: 169px;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: inherit;
+    font-size: 14px;
+
+}
+
+.criaConta a:hover {
+    box-shadow: 0 3px 15px 0 blue;
+}
+
+/* AREA TECNICA E DO CLIENTE */
+
+
+
+/* Painel do Técnico */
+
+.posTabela {
+    position: relative;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.posTabelaDetalhe {
+    position: relative;
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+thead tr th {
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 32px;
+    padding: 8px;
+}
+
+
+tr td {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    
+    background-color: rgba(16, 16, 16, 0.600);
+    
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;
+
+}
+
+.colChamado {
+    color: #42b72a;
+}
+
+.vizualizarChamado {
+    text-decoration: none;
+    color: #42b72a;
+}
+
+.formatCabecalhoTable {
+    font-size: 5px;
+    background-color: red;
+}
+
+/* Painel do Técnico */
+
+/* Painel do Cliente */
+
+.tabelaCliente {
+    margin-top: 25px;
+    position: relative;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.Chamado {
+    text-decoration: none;
+    color: white;
+}
+
+fieldset {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    height: 620px;
+    width: 520px;
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.areaForm {
+    width: 100%;
+}
+
+
+/* Painel do Cliente */
+
+
+
+
+.Dica {
+    position: relative;
+
+    display: inline-block;
+}
+
+/* Balão de DICA */
+.Dica:hover .DicaTexto {
+    visibility: visible;
+}
+
+.DicaTexto {
+    position: absolute;
+    visibility: hidden;
+    font-size: 13px;
+    width: 200px;
+    background: #42b72a;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+    margin-bottom: 5px;
+}
+
+.DicaTexto:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #42b72a;
+}
+
+/* Balão de DICA */
+
+.container {
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    min-width: calc(4 * 2rem + 8 * .6rem + 3rem);
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.item {
+    margin: .2rem;
+    padding: .4rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    background: rgb(71, 70, 156);
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+@media(max-width: 600px) {
+
+    
+
+    header {
+        width: 100%;
+        position: fixed;
+        margin-right: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-burguer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        height: 80px;
+        right: 40px
+    }
+
+    .fas:hover .navB {
+        display: block;
+        
+        
+    }
+
+    .navB {
+        display: none;
+        position: absolute;
+        top: 60px;
+        width: 450px;
+        height: 100%;
+        right: 0px;
+    }
+
+    .menuB li {
+        position: relative;
+        /* float: right; */
+        width: 100%;
+        background: black;
+        border-radius: 10px;
+    }
+
+    .menuB li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menuB li a:hover {
+        border-radius: 10px;
+        background: black;
+        color: white;
+        -moz-box-shadow: 0 3px 10px 0 #CCC;
+        -webkit-box-shadow: 0 3px 10px 0 #ccc;
+        text-shadow: 0px 0px 5px #fff;
+    }
+
+    .menuB li ul {
+        position: relative;
+        left: 5%;
+        background-color: black;
+        display: none;
+        font-size: 20px;
+        border-radius: 10px;
+        
+
+    }
+
+    .menuB li:hover ul {
+        display: block;
+    }
+
+    .menuB li ul li {
+        border: 2px solid #c0c0c0;
+        display: block;
+        width: 160px;
+        margin-top: 3px;
+        border-radius: 10px;
+
+
+    }
+
+
+    /* SECTION SOBRE  RESPONSIVO*/
+
+    .main {
+        position: relative;
+    }
+
+    .corpo {
+
+        position: relative;
+        top: 90px;
+
+    }
+
+    /* SECTION SOBRE  RESPONSIVO*/
+
+    /* CONTATO RESPONSIVO */
+    .contatoEstilo {
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        height: 450px;
+
+        top: 60px;
+        position: relative;
+        left: 1%;
+        border: 1px solid black;
+        border-radius: 15px;
+        background-color: black;
+    }
+
+
+    .botaoContato {
+        font-weight: bold;
+        border: none;
+        color: #fff;
+        border-radius: 6px;
+        background-color: #42b72a;
+        font-size: 17px;
+        width: 100px;
+        line-height: 48px;
+        margin-top: 35px;
+        position: relative;
+        left: 42%;
+        padding: 0 16px;
+        vertical-align: middle;
+
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .campObrig {
+        color: red;
+    }
+
+
+    /* CONTATO RESPONSIVO */
+
+    /* AREA TECNICA E DO CLIENTE RESPONSIVO */
+    .pos {
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        height: 310px;
+        position: relative;
+        top: 150px;
+        left: 0%;
+
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: black;
+
+
+    }
+
+    .formatLink {
+        text-decoration: none;
+        color: white;
+    }
+
+    .botao {
+
+        font-weight: bold;
+        border: none;
+
+        border-radius: 6px;
+        background-color: #42b72a;
+        font-size: 17px;
+        width: 50px;
+
+        line-height: 48px;
+        margin-top: 15px;
+        position: relative;
+        left: 220px;
+        padding: 0 16px;
+        vertical-align: middle;
+
+
+
+    }
+
+    input {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid gray;
+
+    }
+
+    .esqsenha a {
+
+        position: relative;
+        top: 15px;
+        left: 195px;
+        text-decoration: none;
+        color: #1877f2;
+        font-family: inherit;
+        font-size: 14px;
+
+
+    }
+
+    .esqsenha a:hover {
+
+        box-shadow: 0 3px 15px 0 blue;
+
+    }
+
+    .criaConta a {
+
+        position: relative;
+        top: 15px;
+        left: 170px;
+        text-decoration: none;
+        color: #1877f2;
+        font-family: inherit;
+        font-size: 14px;
+
+    }
+
+    .criaConta a:hover {
+        box-shadow: 0 3px 15px 0 blue;
+    }
+
+    /* AREA TECNICA E DO CLIENTE RESPONSIVO */
+
+
+    /* Painel Técnico RESPNSIVO */
+
+    .posTabela {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+
+
+    }
+
+    /* Painel Técnico RESPNSIVO */
+
+
+    /* Painel do Cliente RESPONSIVO */
+
+    .tabelaCliente {
+        margin-top: 25px;
+        position: relative;
+        left: -12%;
+        text-align: center;
+    }
+
+    .Chamado {
+        text-decoration: none;
+        color: white;
+    }
+
+    fieldset {
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        height: 650px;
+        margin: 0 auto;
+
+        position: relative;
+        top: 20px;
+        left: 0;
+
+        border: 1px solid black;
+        border-radius: 8px;
+        background-color: black;
+    }
+
+    .areaForm {
+        width: 100%;
+    }
+
+
+    /* Painel do Cliente RESPONSIVO */
+
+    .containerHome {
+        height: 2000px;
+        margin-top: 70px;
+    }
+
+    .box {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .testePai {
+        position: relative;
+    }
+
+    
+
+    .boxIMG1 {
+        margin-top: 50px;
+        position: relative;
+        left: 3%;
+    }
+
+    .boxIMG2 {
+        position: relative;
+        left: 3%;
+    }
+
+    p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+
+
+    /* FOOTER RESPONSIVO */
+    footer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: rgb(40, 88, 245);
+        color: white;
+        z-index: 2;
+
+
+        height: 50px;
+        position: fixed;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .div1 {
+        position: relative;
+        top: 5px;
+
+
+    }
+
+    .div2 {
+        position: relative;
+        top: 20px;
+
+    }
+
+    .div3 {
+
+        position: relative;
+        top: 20px;
+
+    }
+
+    footer .div1 a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    /* FOOTER RESPONSIVO*/
+
+
+
+
+    .container {
+        margin-top: 90px;
+        box-sizing: border-box;
+        padding: 5px;
+        min-width: calc(4 * 2rem + 8 * .6rem + 3rem);
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .inline-flex {
+        display: inline-flex;
+    }
+
+    .item {
+        margin: .2rem;
+        padding: .4rem;
+        min-width: 2rem;
+        min-height: 2rem;
+        background: rgb(71, 70, 156);
+        color: #fff;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 25px;
+    }
+
+    .localizacao {
+        width: 100%;
+        position: relative;
+        top: 90px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #42b72a;
+        font-style: italic;
+
+    }
+
+
+}
+
+
+@media(max-width: 400px) {
+
+p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        left: 40%;
+    }
+
+}
