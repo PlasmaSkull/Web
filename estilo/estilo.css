@@ -682,14 +682,14 @@ fieldset {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         padding: 20px;
-        height: 450px;
+        height: 550px;
 
         top: 60px;
         position: relative;
         left: 1%;
         border: 1px solid black;
         border-radius: 15px;
-        background-color: black;
+        background-color: rgba(16, 16, 16, 0.500);
     }
 
 
@@ -737,7 +737,7 @@ fieldset {
 
         margin: 0 auto;
         border-radius: 15px;
-        background-color: black;
+        background-color: rgba(16, 16, 16, 0.500);
 
 
     }
@@ -863,7 +863,7 @@ fieldset {
 
         border: 1px solid black;
         border-radius: 8px;
-        background-color: black;
+        background-color: rgba(16, 16, 16, 0.500);
     }
 
     .areaForm {
