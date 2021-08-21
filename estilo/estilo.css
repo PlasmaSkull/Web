@@ -173,7 +173,7 @@ footer{
     color: #fff;
     text-align: center;
     font-weight: bold;
-    te
+    
     
 }
 /* FOOTER */
@@ -184,12 +184,10 @@ footer{
     width: 100%;
     position: relative;
     top: 10px;
-
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #42b72a;
     font-style: italic;
-
 }
 
 .main {
@@ -268,7 +266,7 @@ p {
     left: 36%;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: black;
+    background-color: rgba(16, 16, 16, 0.600);
 }
 
 input {
@@ -325,7 +323,7 @@ textarea {
     margin-left: 35%;
 
     border-radius: 15px;
-    background-color: black;
+    background-color: rgba(16, 16, 16, 0.600);
 
 
 }
@@ -416,7 +414,7 @@ input {
 
 .posTabelaDetalhe {
     position: relative;
-
+    margin-left: 50px;
     text-align: center;
     margin-top: 20px;
 
@@ -484,18 +482,19 @@ fieldset {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 20px;
-    height: 620px;
+    height: 650px;
     width: 520px;
     margin-top: 20px;
     position: relative;
     left: 30%;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: black;
+    background-color: rgba(16, 16, 16, 0.600);
 }
 
 .areaForm {
     width: 100%;
+    
 }
 
 
