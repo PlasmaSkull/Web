@@ -408,13 +408,32 @@ input {
     position: relative;
     margin-left: 5%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5%;
 
 }
 
 .posTabelaDetalhe{
     text-align: center;
-    margin-left: 50px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.posTabelaDetalheR{
+    position: relative;
+    left: 30%;
+    margin-top: 5%;
+
+    text-align: center;
+    
+    
+}
+   
+.cabecalioTable{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    
 }
 
 table {
@@ -461,7 +480,7 @@ tr td {
 /* Painel do Cliente */
 
 .tabelaCliente {
-    margin-top: 25px;
+    margin-top: 5%;
     position: relative;
     margin-left: 5%;
     text-align: center;
@@ -582,6 +601,8 @@ fieldset {
     }
 
     .menu-burguer {
+        width: 50px;
+        float: right;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -593,10 +614,9 @@ fieldset {
         right: 40px
     }
 
-    .fas:hover .navB {
+    .menu-burguer:hover .navB {
         display: block;
-        
-        
+
     }
 
     .navB {
@@ -817,6 +837,7 @@ fieldset {
 
     /* Painel Técnico RESPNSIVO */
 
+
     .posTabela {
         position: relative;
         margin: 0 auto;
@@ -825,10 +846,24 @@ fieldset {
 
    .posTabelaDetalhe {
     position: relative;
-    margin-left: 50px;
+    margin-left: 150px;
     text-align: center;
     margin-top: 20px;
 
+}
+
+.posTabelaDetalheR{
+    position: relative;
+    left: 0%;
+    margin-top: 5%;
+    background-color: rgba(16, 16, 16, 0.500);
+    text-align: center;
+}
+.cabecalioTable{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
 }
 
     /* Painel Técnico RESPNSIVO */
@@ -839,7 +874,7 @@ fieldset {
     .tabelaCliente {
         margin-top: 25px;
         position: relative;
-        left: -12%;
+        left: -15%;
         text-align: center;
     }
 
